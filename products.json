@@ -1,0 +1,29 @@
+{
+    "products": [
+        {
+            "id": "203945762903",
+            "name": "NodeJS API",
+            "price": "9.99"
+        },
+        {
+            "id": "673952849202",
+            "name": "Personal Portfolio",
+            "price": "29.99"
+        },
+        {
+            "id": "198042840204",
+            "name": "Social Media Website",
+            "price": "99.99"
+        },
+        {
+            "id": "903484702978",
+            "name": "Your own JS framework",
+            "price": "59.99"
+        },
+        {
+            "id": "192348614901",
+            "name": "JavaScript Classes",
+            "price": "19.99"
+        }
+    ]
+}
