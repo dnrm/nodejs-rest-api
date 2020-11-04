@@ -29,7 +29,7 @@ async function getProduct(req, res, id) {
     }
 }
 
-async function showAllProducts() {
+async function showAllRoutes(req, res) {
     try {
         const routes = await Product.getRoutes();
         res.writeHead(200, { 'Content-Type': 'application/json'});
@@ -42,5 +42,5 @@ async function showAllProducts() {
 module.exports = {
     getProducts,
     getProduct,
-    showAllProducts
+    showAllRoutes
 };

@@ -16,7 +16,7 @@ function findById(id) {
 function getRoutes() {
     return new Promise((resolve, reject) => {
         const routes = {
-            'home': '/',
+            'Home': '/',
             'All Products': '/api/products',
             'Get Product By Id': '/api/products/:id',
         };
